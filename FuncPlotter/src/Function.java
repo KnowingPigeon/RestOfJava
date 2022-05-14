@@ -1,6 +1,10 @@
+import java.awt.Color;
+
 // defauly function interface
 public interface Function {
 
-	public double calc(double x);
+	double calc(double x);
+	
+	Color colorer();
 	
 }
